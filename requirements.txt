@@ -1,0 +1,9 @@
+
+---
+
+## 📦 `requirements.txt`
+
+```txt
+Flask
+PyPDF2
+spacy

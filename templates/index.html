@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Skill Matcher</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            color: #333;
+        }
+
+        form {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        input, textarea {
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Upload Resume & Job Description</h2>
+    <form action="/submit" method="POST" enctype="multipart/form-data">
+        <label>Resume (PDF):</label><br>
+        <input type="file" name="resume" accept=".pdf" required><br>
+
+        <label>Job Description:</label><br>
+        <textarea name="jobdesc" rows="10" required></textarea><br>
+
+        <input type="submit" value="Check Match">
+    </form>
+</body>
+</html>

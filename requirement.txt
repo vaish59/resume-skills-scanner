@@ -1,0 +1,26 @@
+We are seeking a passionate AI/ML Engineer to join our research and development team.
+
+Responsibilities:
+- Design and develop machine learning models and algorithms for real-world applications
+- Clean, preprocess, and analyze large datasets
+- Train, evaluate, and optimize ML models using Python frameworks
+- Collaborate with data scientists and software engineers to deploy models into production
+- Stay updated with the latest developments in AI and machine learning
+
+Required Skills:
+- Strong proficiency in Python, with hands-on experience in libraries like NumPy, pandas, scikit-learn
+- Experience with deep learning frameworks such as TensorFlow or PyTorch
+- Solid understanding of supervised and unsupervised learning algorithms
+- Familiarity with NLP, computer vision, or recommendation systems is a plus
+- Ability to interpret and visualize data using Matplotlib, Seaborn, or Plotly
+- Experience with model deployment tools (Flask, FastAPI, or Docker)
+
+Preferred Qualifications:
+- Master’s degree or higher in Computer Science, AI, Machine Learning, or related field
+- Contributions to open-source ML projects or Kaggle competitions
+- Familiarity with cloud platforms (AWS/GCP/Azure)
+
+Soft Skills:
+- Excellent problem-solving abilities
+- Team player with strong communication skills
+- Ability to work independently and manage time efficiently
